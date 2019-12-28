@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "539067999854",
+    "firebase_url": "https://yolov2-e255f.firebaseio.com",
+    "project_id": "yolov2-e255f",
+    "storage_bucket": "yolov2-e255f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:539067999854:android:b2be76c66379bf18d1687f",
+        "android_client_info": {
+          "package_name": "com.example.yolov2_traffic_signs"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "539067999854-h5k3uaddlqslmbhkndk54669bjoe1uul.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCInVjtNun6ROTMWa9eyZPuj2NhDttAgTM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "539067999854-h5k3uaddlqslmbhkndk54669bjoe1uul.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

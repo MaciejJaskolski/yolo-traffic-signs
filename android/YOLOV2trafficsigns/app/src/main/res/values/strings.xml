@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">YOLOV2-traffic-signs</string>
+    <string name="title_activity_maps">Map</string>
+</resources>

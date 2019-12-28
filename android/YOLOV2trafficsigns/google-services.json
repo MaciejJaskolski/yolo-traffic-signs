@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "168967851263",
+    "firebase_url": "https://yolov2-traffic-signs.firebaseio.com",
+    "project_id": "yolov2-traffic-signs",
+    "storage_bucket": "yolov2-traffic-signs.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:168967851263:android:6f28b00fde53c6a24350ca",
+        "android_client_info": {
+          "package_name": "com.example.yolov2_traffic_signs"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "168967851263-j7nu88j3f2sh2iojupejdijnnllgr912.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.yolov2_traffic_signs",
+            "certificate_hash": "4d2f0d3ab37e901416b5da09912f3b4ec890bb22"
+          }
+        },
+        {
+          "client_id": "168967851263-hu8198sp7tva5uig8uu9oltr7dqgturu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD4g2J-3DRSpHoo2U9-FyFiIT0Xk0Vk1uw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "168967851263-hu8198sp7tva5uig8uu9oltr7dqgturu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

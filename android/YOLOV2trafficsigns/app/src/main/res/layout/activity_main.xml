@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <com.otaliastudios.cameraview.CameraView
+            android:id="@+id/camera"
+            android:layout_width="match_parent"
+            android:layout_height="500dp">
+
+            <TextView
+                android:id="@+id/txtCurrentLocation"
+                android:layout_width="200dp"
+                android:background="@color/backgroundColor"
+                android:layout_gravity="top|right"
+                android:layout_height="30dp" />
+        </com.otaliastudios.cameraview.CameraView>
+
+        <TextView
+            android:id="@+id/txtCurrentDetection"
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center" />
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_switch_view_to_maps"
+        style="@style/Widget.MaterialComponents.Button.Icon"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:verticalScrollbarPosition="defaultPosition"
+        android:gravity="bottom"
+        app:cornerRadius="10dp"
+        app:icon="@drawable/ic_map_black_24dp"/>
+
+</FrameLayout>
